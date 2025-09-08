@@ -1,0 +1,34 @@
+body{
+    background-color: antiquewhite !important;
+}
+nav {
+    background-color: rgba(86, 114, 123, 0.895) !important;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#Homepageintroduction {
+    margin-top: 100px;
+}
+#Index_main_page_img {
+    margin-left: 200px;
+
+}
+.nav-link {
+    color: rgb(124, 175, 197) !important;
+}
+.nav-link:hover {
+    color: rgb(175, 157, 202) !important;
+    transform: scale(1.196);
+}
+#Index_main_page_short_details_of_me {
+    width: 30%;
+    margin-right: 200px;
+    float: right;
+    font-style: italic;
+    background-color: aliceblue;
+}
