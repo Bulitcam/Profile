@@ -25,3 +25,11 @@ function displaySentenceInTimezone(timezone) {
   document.getElementById("The_date_time").textContent = sentence;
   return sentence;
 }
+
+function Dropdown1(element) {
+  const hiddenText = element.nextElementSibling;
+  const arrow = element.querySelector('.arrow');
+
+  hiddenText.classList.toggle('show');
+  arrow.classList.toggle('expanded');
+}
