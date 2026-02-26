@@ -1,29 +1,38 @@
 body{
-    background-color: #1C4D8D !important;
-  font-family: "DM Serif Text", serif;
-  font-weight: 400;
-  font-style: italic;
+    background-color: #2C3639 !important;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #DCD7C9 !important;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #DCD7C9 !important;
+    bottom: 0;
+    flex: 0;
 }
 nav {
-    background-color: #4988C4 !important;
+    background-color: #3F4E4F !important;
+    margin: 50px 100px auto;
     margin-top: 20px;
     margin-left: 50px;
     margin-right: 50px;
+    opacity: 0.895;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    opacity: 0.895;
 }
 .nav-item, .nav-link {
     margin-left: 43px;
     margin-right: 43px;
     text-align: center;
-    color: #BDE8F5 !important;
+    color: #DCD7C9 !important;
     transform: scale(1.1);
 }
 .nav-link:hover {
-    color: #0F2854 !important;
+    color: #A1C2BD !important;
     transform: scale(1.196);
     transition: 1.5s;
 }
@@ -44,7 +53,8 @@ nav {
     margin-right: 200px;
     float: right;
     font-style: italic;
-    background-color: aliceblue;
+    background-color: #3F4E4F;
+    color: #DCD7C9;
     padding: 50px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -52,11 +62,23 @@ nav {
     border-top-right-radius: 20px;
     box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.416);
 }
-.Hobbies {
-    width: 30%;
+.bio{
+    margin-top: 60px;
+    background-color: #374546;
+    color: #DCD7C9;
+    padding: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.Mydo {
+    width: 42%;
     margin-top: 40px;
-    margin-right: 25px;
-    background-color: rgb(175, 205, 232);
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    background-color: #3F4E4F;
     border-radius: 30px;
     text-align: center;
 }
@@ -72,4 +94,36 @@ nav {
 .Index{
     position: relative;
     z-index: 2;
+}
+.clickable {
+    cursor: pointer;
+    color: #DCD7C9;
+    padding: 8px;
+    border-bottom: 2px solid transparent;
+}
+.clickable:hover {
+    color: #A1C2BD;
+    transition: all 0.4s ease;
+    transform: scale(1.25);
+}
+
+.hidden-text {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-left: 3px solid #446d72;
+    line-height: 1.6;
+}
+
+.hidden-text.show {
+    display: block;
+}
+
+.arrow {
+    margin-right: 5px;
+    transition: transform 0.3s;
+}
+
+.arrow.expanded {
+    transform: rotate(90deg);
 }
