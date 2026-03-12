@@ -1,0 +1,93 @@
+#Homepageintroduction {
+    margin-top: 60px;
+    opacity: 0.8;
+}
+#Index_main_page_img {
+    margin-left: 200px;
+    margin-top: 50px !important;
+}
+.PFP_Index {
+    box-shadow: 10px 10px 5px rgba(143, 134, 134, 0.744);
+}
+
+#Index_main_page_short_details_of_me {
+    width: 30%;
+    margin-right: 200px;
+    float: right;
+    font-style: italic;
+    background-color: #3F4E4F;
+    color: #DCD7C9;
+    padding: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.416);
+}
+.bio{
+    margin-top: 60px;
+    background-color: #374546;
+    color: #DCD7C9;
+    padding: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+.Mydo {
+    width: 42%;
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    background-color: #3F4E4F;
+    border-radius: 30px;
+    text-align: center;
+    flex: 1;
+}
+.Index_background_image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -63.3%);
+  z-index: 1;
+  background-color: black;
+  opacity: 0.8;
+}
+.Index{
+    position: relative;
+    z-index: 2;
+}
+.clickable {
+    cursor: pointer;
+    color: #DCD7C9;
+    padding: 8px;
+    border-bottom: 2px solid transparent;
+}
+.clickable:hover {
+    color: #A1C2BD;
+    transition: all 0.4s ease;
+    transform: scale(1.25);
+}
+
+.hidden-text {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-left: 3px solid #446d72;
+    line-height: 1.6;
+}
+
+.hidden-text.show {
+    display: block;
+}
+
+.arrow {
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.arrow.expanded {
+    transform: rotate(90deg);
+}
