@@ -1,41 +1,3 @@
-body{
-    background-color: #2C3639 !important;
-    font-family: "DM Serif Text", serif;
-    font-weight: 400;
-    font-style: italic;
-    color: #DCD7C9 !important;
-}
-footer {
-    text-align: center;
-    margin-top: 50px;
-    color: #DCD7C9 !important;
-    bottom: 0;
-    flex: 0;
-}
-nav {
-    background-color: #3F4E4F !important;
-    margin: 50px 100px auto;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    opacity: 0.895;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-.nav-item, .nav-link {
-    margin-left: 43px;
-    margin-right: 43px;
-    text-align: center;
-    color: #DCD7C9 !important;
-    transform: scale(1.1);
-}
-.nav-link:hover {
-    color: #A1C2BD !important;
-    transform: scale(1.196);
-    transition: 1.5s;
-}
 #Homepageintroduction {
     margin-top: 60px;
     opacity: 0.8;
@@ -71,6 +33,7 @@ nav {
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    text-align: center;
 }
 .Mydo {
     width: 42%;
@@ -81,6 +44,7 @@ nav {
     background-color: #3F4E4F;
     border-radius: 30px;
     text-align: center;
+    flex: 1;
 }
 .Index_background_image {
   position: absolute;
@@ -121,7 +85,7 @@ nav {
 
 .arrow {
     margin-right: 5px;
-    transition: transform 0.3s;
+    transition: 0.3s;
 }
 
 .arrow.expanded {
